@@ -1,0 +1,4 @@
+FROM ubuntu:22.04
+RUN apt-get update && apt-get install -y python3 sudo && rm -rf /var/lib/apt/lists/*
+EXPOSE 8080
+CMD ["sleep", "infinity"]

@@ -1,0 +1,6 @@
+target/
+.git/
+ansible/
+evidence/
+report/
+scripts/
